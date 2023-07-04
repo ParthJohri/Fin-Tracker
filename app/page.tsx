@@ -17,7 +17,7 @@ export default function Home() {
   const addItem = async (e:any) =>{
     e.preventDefault();
     // Only for state
-    if(newItem.name!=='' && !isNaN(newItem.price) && newItem.price!==''){
+    if(newItem.name!=='' && !isNaN(parseFloat(newItem.price))  && newItem.price!==''){
       // setItems([...items,newItem]);
       await addDoc(collection(db, "expenses"), {
         name: newItem.name.trim(),
