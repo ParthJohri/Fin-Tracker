@@ -57,7 +57,7 @@ export default function Home() {
     })
   },[])
   // Deleting From The Database
-  const deleteItem = async(id)=>{
+  const deleteItem = async(id:string)=>{
     await deleteDoc(doc(db,'expenses',id))
   }
   const [newItem,setNewItem]=useState({name:'',price:''})
