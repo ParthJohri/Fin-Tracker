@@ -9,7 +9,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export default function Home() {
   const [items, setItems] = useState([
-    {name:'Tea',price:'10'},
+    {name:'Tea',price:'10',id:'1'},
     // {name:'Coffee',price:'20'},
     // {name:'cold Drink',price:'30'}
   ])
