@@ -7,10 +7,6 @@ Fintracker is a personal finance tracking application that helps you manage your
 - **Income and Expense Tracking**: Record your income and expenses with ease and categorize them for better organization.
 - **Budget Management**: Set budgets for different expense categories and track your spending to stay within budget.
 - **Savings Monitoring**: Keep track of your savings and monitor your progress towards your savings goals.
-- **Visual Reports**: Gain insights into your financial data through visual representations like charts and graphs.
-- **Goal Setting**: Set financial goals and track your progress towards achieving them.
-- **Bill Reminders**: Get reminders for upcoming bills to ensure timely payments.
-- **Financial Reports**: Generate detailed reports to analyze your financial performance over time.
 - **User-Friendly Interface**: Enjoy a clean and intuitive interface for easy navigation and seamless user experience.
 
 ## Technologies Used
